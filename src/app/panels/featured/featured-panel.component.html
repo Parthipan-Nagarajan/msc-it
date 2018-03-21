@@ -1,0 +1,21 @@
+<div *screenLarge class="group">
+  <div>
+    <img class="country-image" [src]="'/assets/Norway.jpg'" [alt]="">
+  </div>
+  <div class="country-name">
+    <span>{{ Title }}</span>
+    <span>{{ Description }}</span>
+  </div>
+</div>
+
+<div *screenBelowLarge class="group-small">
+  <div class="title-group-small">
+    <div class="country-name-small">
+        <span>{{ Title }}</span>
+        <span>{{ Description }}</span>
+    </div>
+  </div>
+  <div>
+    <img class="country-image-small" [src]="'/assets/Norway.jpg'" [alt]="">
+  </div>
+</div>
